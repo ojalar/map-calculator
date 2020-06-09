@@ -11,7 +11,7 @@ Detections and ground truth labels are given in identically named .txt files in 
 &lt;class&gt; &lt;x1&gt; &lt;y1&gt; &lt;x2&gt; &lt;y2&gt; 
 
 <h1>Usage</h1>  
-python3 map-calculator.py -d &lt;detection folder&gt; -t &lt;ground truth folder&gt; -i &lt;IOU threshold&gt; -m &lt;mode&gt;
+python3 map-calculator.py -d &lt;detection folder&gt; -t &lt;ground truth folder&gt; -i &lt;IoU-threshold&gt; -m &lt;mode&gt;
 
 <h1>Modes</h1> 
 Available modes are "normal", "multi" and "cluster". The "normal" and "cluster" modes are utilised in the related paper.
